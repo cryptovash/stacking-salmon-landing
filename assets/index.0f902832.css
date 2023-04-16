@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Circularies,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji!important;
+    color: #fffffff2;
+    text-shadow: 0 0 20px rgba(255,255,255,.5)
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw
+}
+
+.logo {
+    filter: drop-shadow(0 0 20px rgba(255,255,255,.5));
+    margin: 10px
+}
+
+.logos-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.bg {
+    position: absolute;
+    background-image: url(/assets/bg.49967791.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(.7);
+    z-index: -1
+}
+
+.aurora {
+    background: #000
+}
+
+.aurora:before,.aurora:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border-radius: 100%;
+    opacity: .08
+}
+
+.aurora:before {
+    box-shadow: 0 0 800px 800px red;
+    animation: hue 5s 0s linear infinite,move1 10s 0s linear infinite
+}
+
+.aurora:after {
+    box-shadow: 0 0 800px 800px #0ff;
+    animation: hue 10s 0s linear infinite,move2 20s 0s linear infinite
+}
+
+@-moz-keyframes hue {
+    0% {
+        filter: hue-rotate(0deg)
+    }
+
+    to {
+        filter: hue-rotate(360deg)
+    }
+}
+
+@-webkit-keyframes hue {
+    0% {
+        filter: hue-rotate(0deg)
+    }
+
+    to {
+        filter: hue-rotate(360deg)
+    }
+}
+
+@-o-keyframes hue {
+    0% {
+        filter: hue-rotate(0deg)
+    }
+
+    to {
+        filter: hue-rotate(360deg)
+    }
+}
+
+@keyframes hue {
+    0% {
+        filter: hue-rotate(0deg)
+    }
+
+    to {
+        filter: hue-rotate(360deg)
+    }
+}
+
+@-moz-keyframes move1 {
+    0% {
+        top: 1vh;
+        left: 49vw
+    }
+
+    25% {
+        left: 1vw
+    }
+
+    50% {
+        top: 99vh
+    }
+
+    75% {
+        left: 99vw
+    }
+
+    to {
+        top: 1vh;
+        left: 49vw
+    }
+}
+
+@-webkit-keyframes move1 {
+    0% {
+        top: 1vh;
+        left: 49vw
+    }
+
+    25% {
+        left: 1vw
+    }
+
+    50% {
+        top: 99vh
+    }
+
+    75% {
+        left: 99vw
+    }
+
+    to {
+        top: 1vh;
+        left: 49vw
+    }
+}
+
+@-o-keyframes move1 {
+    0% {
+        top: 1vh;
+        left: 49vw
+    }
+
+    25% {
+        left: 1vw
+    }
+
+    50% {
+        top: 99vh
+    }
+
+    75% {
+        left: 99vw
+    }
+
+    to {
+        top: 1vh;
+        left: 49vw
+    }
+}
+
+@keyframes move1 {
+    0% {
+        top: 1vh;
+        left: 49vw
+    }
+
+    25% {
+        left: 1vw
+    }
+
+    50% {
+        top: 99vh
+    }
+
+    75% {
+        left: 99vw
+    }
+
+    to {
+        top: 1vh;
+        left: 49vw
+    }
+}
+
+@-moz-keyframes move2 {
+    0% {
+        top: 49vh;
+        left: 99vw
+    }
+
+    25% {
+        top: 99vh
+    }
+
+    50% {
+        left: 1vw
+    }
+
+    75% {
+        top: 1vh
+    }
+
+    to {
+        top: 49vh;
+        left: 99vw
+    }
+}
+
+@-webkit-keyframes move2 {
+    0% {
+        top: 49vh;
+        left: 99vw
+    }
+
+    25% {
+        top: 99vh
+    }
+
+    50% {
+        left: 1vw
+    }
+
+    75% {
+        top: 1vh
+    }
+
+    to {
+        top: 49vh;
+        left: 99vw
+    }
+}
+
+@-o-keyframes move2 {
+    0% {
+        top: 49vh;
+        left: 99vw
+    }
+
+    25% {
+        top: 99vh
+    }
+
+    50% {
+        left: 1vw
+    }
+
+    75% {
+        top: 1vh
+    }
+
+    to {
+        top: 49vh;
+        left: 99vw
+    }
+}
+
+@keyframes move2 {
+    0% {
+        top: 49vh;
+        left: 99vw
+    }
+
+    25% {
+        top: 99vh
+    }
+
+    50% {
+        left: 1vw
+    }
+
+    75% {
+        top: 1vh
+    }
+
+    to {
+        top: 49vh;
+        left: 99vw
+    }
+}
