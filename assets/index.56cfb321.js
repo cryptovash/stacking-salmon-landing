@@ -31,7 +31,7 @@ const m = function() {
     }
 };
 m();
-var h = "/assets/stacking-salmon-logo.png"
+var h = "/assets/stacking-salmon-.svg"
   , u = "/assets/twitter.e240e92d.svg"
   , g = "/assets/github.754c5459.svg"
   , f = "/assets/medium.f6a7c053.svg"
@@ -56,7 +56,7 @@ function y() {
                         textDecoration: "none",
                         color: "inherit"
                     },
-                    children: "Aurora"
+                    children: "Berachain"
                 })]
             }), s("div", {
                 className: "logos-container",
@@ -70,7 +70,7 @@ function y() {
                     })
                 }), t("a", {
                     className: "logo",
-                    href: "https://twitter.com/ariesprotocol",
+                    href: "https://twitter.com/stackingsalmon",
                     children: t("img", {
                         src: u,
                         alt: "Twitter",
@@ -78,7 +78,7 @@ function y() {
                     })
                 }), t("a", {
                     className: "logo",
-                    href: "https://ariesprotocol.medium.com",
+                    href: "https://medium.com",
                     children: t("img", {
                         src: f,
                         alt: "Medium",
@@ -86,7 +86,7 @@ function y() {
                     })
                 }), t("a", {
                     className: "logo",
-                    href: "https://github.com/aries-protocol",
+                    href: "https://github.com/cryptovash",
                     children: t("img", {
                         src: g,
                         alt: "GitHub",
@@ -94,7 +94,7 @@ function y() {
                     })
                 }), t("a", {
                     className: "logo",
-                    href: "https://docs.aries.so",
+                    href: "https://google.com",
                     children: t("img", {
                         src: p,
                         alt: "Documentation",
